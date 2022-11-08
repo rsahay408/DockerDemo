@@ -2,18 +2,15 @@
 
 echo "*************Running Jmeterun.sh file**********"
 
-#git config --global http.sslverify false
-#git clone https://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@github.com/svodhulu/Docker.git
-
 
 curtime=$(date +%d%m%Y%H%M%S)
 
 echo "Current time in epochtime $curtime"
 
 cd ..
-sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/Docker/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/Docker/Results_${curtime}.jtl -e -o /opt/apache-jmeter-5.5/bin/Docker/HTML_${curtime}
+sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/DockerDemo/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/DockerDemo/Results_${curtime}.jtl -e -o /opt/apache-jmeter-5.5/bin/DockerDemo/HTML_${curtime}
  
-cd Docker
+cd DockerDemo
 
 sleep 1m
 #Push the code to repo
