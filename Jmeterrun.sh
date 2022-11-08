@@ -18,8 +18,8 @@ cd Docker
 sleep 1m
 #Push the code to repo
 git add .
-git config --global user.name "SaiKumar"
-git config --global user.email "saikumar.vodhulu@qentelli.com"
+git config --global user.name "rsahay408"
+git config --global user.email "rupesh.sahay@qentelli.com"
 
 git commit -m "Results"
 git push
