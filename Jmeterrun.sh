@@ -10,7 +10,7 @@ echo "*************Running Jmeterun.sh file**********"
 
 curtime=$(date +%d%m%Y%H%M%S)
 
-echo "Current time in epochtime $curTime"
+echo "Current time in epochtime $curtime"
 
 cd ..
 
