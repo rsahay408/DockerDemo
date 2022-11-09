@@ -14,7 +14,7 @@ echo "Current time in epochtime $curTime"
 
 cd ..
 
-sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/Docker/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/Docker/Results_${curtime}.jtl -e -o /opt/apache-jmeter-5.5/bin/Docker/HTML_${curtime}
+sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/DockerDemo/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/DockerDemo/Results_${curtime}.jtl -e -o /opt/apache-jmeter-5.5/bin/DockerDemo/HTML_${curtime}
  
  
 cd DockerDemo
