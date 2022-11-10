@@ -6,15 +6,15 @@ echo "*************Running Jmeterun.sh file**********"
 #git clone https://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@github.com/svodhulu/Docker.git
 
 
-
-
 curtime=$(date +%d%m%Y%H%M%S)
+
+mkdir $curtime
 
 echo "Current time in epochtime $curtime"
 
 cd ..
 
-sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/DockerDemo/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/DockerDemo/Results_${curtime}.jtl -e -o /opt/apache-jmeter-5.5/bin/DockerDemo/HTML_${curtime}
+sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/DockerDemo/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/DockerDemo/$curtime/Results_${curtime}.jtl -e -o /opt/apache-jmeter-5.5/bin/DockerDemo/$curtime/HTML_${curtime}
  
  
 cd DockerDemo
