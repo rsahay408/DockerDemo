@@ -8,16 +8,18 @@ echo "*************Running Jmeterun.sh file**********"
 
 curtime=$(date +%d%m%Y%H%M%S)
 
+#Results Folder
 mkdir $curtime
 
 echo "Current time in epochtime $curtime"
 
+#Move to bin path
 cd /bin/
 
 sh jmeter.sh -n -t /opt/apache-jmeter-5.5/bin/DockerDemo/SampleTestScript_Google.jmx -l /opt/apache-jmeter-5.5/bin/DockerDemo/$curtime/Results_${curtime}.jtl -e -o /opt/apache-jmeter-5.5/bin/DockerDemo/$curtime/HTML_${curtime}
  
- 
-cd DockerDemo
+#After Run Move to results folder
+cd /DockerDemo/$curtime
 
 sleep 1m
 #Push the code to repo
