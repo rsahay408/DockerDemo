@@ -1,0 +1,50 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 40,
+    "errorCount" : 20,
+    "errorPct" : 50.0,
+    "meanResTime" : 379.125,
+    "medianResTime" : 391.0,
+    "minResTime" : 210.0,
+    "maxResTime" : 750.0,
+    "pct1ResTime" : 515.2,
+    "pct2ResTime" : 673.2999999999995,
+    "pct3ResTime" : 750.0,
+    "throughput" : 6.546644844517186,
+    "receivedKBytesPerSec" : 115.97598711129295,
+    "sentKBytesPerSec" : 2.2416185045008183
+  },
+  "TestRequest_01_Google" : {
+    "transaction" : "TestRequest_01_Google",
+    "sampleCount" : 20,
+    "errorCount" : 20,
+    "errorPct" : 100.0,
+    "meanResTime" : 368.8,
+    "medianResTime" : 373.0,
+    "minResTime" : 221.0,
+    "maxResTime" : 750.0,
+    "pct1ResTime" : 656.6000000000005,
+    "pct2ResTime" : 746.4499999999999,
+    "pct3ResTime" : 750.0,
+    "throughput" : 3.570790930191037,
+    "receivedKBytesPerSec" : 63.40978452508481,
+    "sentKBytesPerSec" : 0.9824905708802
+  },
+  "TestRequest_02_Google" : {
+    "transaction" : "TestRequest_02_Google",
+    "sampleCount" : 20,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 389.45,
+    "medianResTime" : 470.0,
+    "minResTime" : 210.0,
+    "maxResTime" : 565.0,
+    "pct1ResTime" : 515.2,
+    "pct2ResTime" : 562.55,
+    "pct3ResTime" : 565.0,
+    "throughput" : 3.541703559412077,
+    "receivedKBytesPerSec" : 62.59165541437931,
+    "sentKBytesPerSec" : 1.4509225030989905
+  }
+}
