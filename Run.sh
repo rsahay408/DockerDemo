@@ -11,7 +11,7 @@ docker build -t jmeterupdated .
 echo "**********************Running a CONTAINER*****************"
 
 #docker run -v "${ROOT_DIR}:/opt/apache-jmeter-5.5/bin/code" -d jmeterupdated/latest
-chmod 777 Jmeterrun.sh
+chmod 777 Jmeternew.sh
 
 docker run -it jmeterupdated
 
