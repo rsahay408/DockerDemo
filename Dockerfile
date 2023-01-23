@@ -52,7 +52,7 @@ RUN git config --global http.sslverify false
 
 #RUN git clone https://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@github.com/svodhulu/Docker.git
 RUN git clone https://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@github.com/rsahay408/DockerDemo.git
-//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
+#//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
 #RUN wget https://drive.google.com/file/d/1epZtQ8FRnKHFRXRtLUNvM1_F5X3ui_MA/view?usp=drivesdk
 #COPY /C:/Containers/Container3/jmeterrun.sh /opt/apache-jmeter-5.5/bin/code/jmeterrun.sh
 
