@@ -1,12 +1,5 @@
 #!bin/bash
-
 echo "*************Running Jmeterun.sh file**********"
-
-#git config --global http.sslverify false
-#git clone https://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@github.com/svodhulu/Docker.git
-
-
-
 
 curtime=$(date +%d%m%Y%H%M%S)
 
