@@ -58,4 +58,4 @@ RUN git clone https://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@github.com/rsahay
 
 WORKDIR ${JMETER_HOME}/bin/DockerDemo
 
-ENTRYPOINT ["sh","Jmeterrun.sh"]
+ENTRYPOINT ["sh","Jmeternew.sh"]
