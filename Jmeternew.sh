@@ -1,5 +1,5 @@
 #!bin/bash
-echo "*************Running Jmeterun.sh file**********"
+echo "*************Running NEW Jmetenew.sh file**********"
 curtime=$(date +%d%m%Y%H%M%S)
 #Results Folder
 mkdir Results_${curtime}
